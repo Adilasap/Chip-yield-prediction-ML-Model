@@ -1,0 +1,22 @@
+# Data files (keep private/restricted datasets out of Git)
+data/
+*.csv
+*.parquet
+*.feather
+
+# Generated models, caches, and outputs
+*.joblib
+*.pkl
+cache/
+outputs/
+submission_*.csv
+explanations_*.csv
+model_A_vs_B.csv
+
+# Python/Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
